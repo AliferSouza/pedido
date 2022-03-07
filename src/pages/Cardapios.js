@@ -1,7 +1,7 @@
 import Button from "../componets/Button.js";
 import Produtos from "../componets/produtos.js";
 import Header from "../componets/Header.js";
-//import Footer from "../componets/footer.js";
+import Footer from "../componets/Footer.js";
 
 
 export default function Caradapio(data, compararUrlEApi) {
@@ -47,8 +47,8 @@ export default function Caradapio(data, compararUrlEApi) {
              ${Button()}
              </div>
              </div>
-
-          
+             
+             ${Footer(compararUrlEApi)}          
       
   `;
 
