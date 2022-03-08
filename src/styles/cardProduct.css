@@ -1,0 +1,209 @@
+.id{
+     margin: 0;
+     padding: 0;
+}
+
+img{
+    width: 133%;
+    border-radius: 4px 4px 0 0;   
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+/* food wrapper */
+.food-wrapper{      
+    background: #f9f9f9;
+    padding: 0.8rem;
+   
+}
+
+.foods{    
+    display: flex;
+    gap: 1rem; 
+    overflow-x: auto;  
+}
+
+.drinks{    
+    display: flex;
+    gap: 0.4rem; 
+    overflow-x: auto; 
+}
+
+.outros{    
+    display: flex;
+    gap: 0.4rem; 
+    overflow-x: auto; 
+   
+}
+
+.food{    
+    box-shadow: 0 0px 5px 5px rgba(217, 217, 217, 0.64); 
+    border-radius: 2px;   
+    margin: 0rem 0rem 1rem 0rem  ;
+    padding: 0rem 3rem 1rem 0rem  ;
+}
+
+
+.food-content{
+    padding-left: 2rem;
+    background: #fff;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+.fa-heart{
+   font-size: 12px;
+}
+
+.food-img{
+    position: relative;
+}
+.food-img span{
+    position: absolute;
+    font-size: 0.4rem;
+    color: #fff;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.food-rate{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    background: #fe9920;
+    padding: 0.1rem 0.2rem;
+    font-size: 75%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.Titulo{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.Descrição{
+    margin: 0;
+    font-size:12px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.food-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.food-info span{
+    font-size: 12px;
+    color: #fff;
+    border-radius: 4px;   
+    padding:  5px;
+    margin: 0 0.4rem 0 0;  
+}
+
+.food-info p{
+  font-size: 12px;  
+}
+
+
+.food-price-calc{  
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    gap: 0.2rem;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         rem 0rem 0rem 0rem; 
+}
+
+.food-price-calc h2{                                                                  
+    font-size: 12px;
+}              
+
+.food-quantity{
+    display: flex;
+    align-items: center;
+}
+
+.food-quantity div{
+    width: 25px;
+    height: 25px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1rem;  
+
+}
+.order-val{
+    font-weight: 400;
+    background: #f9f9f9;
+}
+.order-dec,
+.order-inc{
+    cursor: pointer;
+    background: rgba(149, 147, 147, 0.45);   
+}
+
+.order-dec:hover,
+.order-inc:hover{
+    background: #b5b5b5;
+}
+
+
+
+
+
+
+ 
+  
